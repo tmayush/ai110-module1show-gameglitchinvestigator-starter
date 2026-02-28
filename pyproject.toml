@@ -1,0 +1,11 @@
+[project]
+name = "Glitch Hunt"
+version = "0.1.0"
+description = "Codepath Project 1 - Attempt by Mayush"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair<5",
+    "pytest>=9.0.2",
+    "streamlit>=1.21.0",
+]
