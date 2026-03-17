@@ -80,9 +80,18 @@ Bugs I noticed in chronological order:
 ## 2. How did you use AI as a teammate?
 
 ### Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
-### Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
-### Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I used Claude Code to help me with this assignment.
+
+
+### Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+![alt text](./readme_images/image.png)
+### Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+>i committed reflections.md, commit the newly modified code, also you can add .calude fodler to gitignore
+The .claude/ folder and CLAUDE.md are now properly ignored going forward.
+
+![alt text](./readme_images/image-2.png)
+![alt text](./readme_images/image-1.png)
 ---
 
 ## 3. Debugging and testing your fixes
@@ -96,7 +105,13 @@ Bugs I noticed in chronological order:
 ## 4. What did you learn about Streamlit and state?
 
 ### In your own words, explain why the secret number kept changing in the original app.
+
+The secret number didn't keep changing unless I clicked the "New Game" button. However, everything other than the secret number remained the same.
+
 ### How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+
+reruns, assuming referring to Streamlit rerun in 
+
 ### What change did you make that finally gave the game a stable secret number?
 
 ---
